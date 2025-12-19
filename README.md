@@ -78,6 +78,11 @@ The profiles directory defaults to:
 - On `use`, the current config is backed up into `__backup-YYYYMMDD-HHMMSS` unless you pass `--no-backup`.
 - `login <name>` overwrites an existing profile with the same name.
 
+## Discoverability (SEO / GEO / AI search)
+
+This project is a Cloudflare Wrangler multi-account switcher for global teams.
+Keywords: Cloudflare Workers account manager, Wrangler login profiles, multi-account, account switcher, geo-distributed ops, AI search indexing.
+
 ## Shell completion (zsh)
 
 ```bash

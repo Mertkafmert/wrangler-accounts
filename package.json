@@ -1,6 +1,6 @@
 {
   "name": "@leeguoo/wrangler-accounts",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Local CLI to manage multiple Cloudflare Wrangler login profiles.",
   "license": "MIT",
   "bin": {
@@ -13,7 +13,11 @@
   "keywords": [
     "cloudflare",
     "wrangler",
+    "cloudflare-workers",
+    "workers",
     "accounts",
+    "multi-account",
+    "account-switcher",
     "cli"
   ],
   "repository": {
