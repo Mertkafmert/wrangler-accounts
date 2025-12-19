@@ -101,6 +101,7 @@ function detectConfigPath(cliPath) {
   const home = os.homedir();
   const candidates = [
     path.join(home, ".wrangler", "config", "default.toml"),
+    path.join(home, "Library", "Preferences", ".wrangler", "config", "default.toml"),
     path.join(home, ".config", ".wrangler", "config", "default.toml"),
     path.join(home, ".config", "wrangler", "config", "default.toml"),
   ];

@@ -61,6 +61,7 @@ wrangler-accounts remove old
 If you do not specify a config path, the CLI checks for these and uses the first existing path:
 
 - ~/.wrangler/config/default.toml
+- ~/Library/Preferences/.wrangler/config/default.toml
 - ~/.config/.wrangler/config/default.toml
 - ~/.config/wrangler/config/default.toml
 
