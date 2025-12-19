@@ -5,6 +5,7 @@ const fs = require("fs");
 const path = require("path");
 const os = require("os");
 const crypto = require("crypto");
+const { spawnSync } = require("child_process");
 
 function die(message) {
   console.error(`Error: ${message}`);
@@ -20,6 +21,7 @@ Usage:
 Commands:
   list
   status
+  login <name>
   save <name>
   use <name>
   remove <name>
@@ -233,6 +235,16 @@ function saveProfile(name, configPath, profilesDir, force) {
   writeMeta(profileDir, name, configPath);
 }
 
+function runWranglerLogin() {
+  const result = spawnSync("wrangler", ["login"], { stdio: "inherit" });
+  if (result.error) {
+    die(`Failed to run 'wrangler login': ${result.error.message}`);
+  }
+  if (result.status !== 0) {
+    die(`'wrangler login' exited with code ${result.status}`);
+  }
+}
+
 function useProfile(name, configPath, profilesDir, backup) {
   if (!isValidName(name)) {
     die(`Invalid profile name: ${name}`);
@@ -327,6 +339,19 @@ function main() {
     ensureDir(profilesDir);
     saveProfile(name, configPath, profilesDir, opts.force);
     console.log(`Saved profile '${name}' from ${configPath}`);
+    return;
+  }
+
+  if (command === "login") {
+    const name = rest[1];
+    if (!name) die("Missing profile name for login");
+    ensureDir(profilesDir);
+    runWranglerLogin();
+    if (!fs.existsSync(configPath)) {
+      die(`Config file not found after login: ${configPath}`);
+    }
+    saveProfile(name, configPath, profilesDir, opts.force);
+    console.log(`Logged in and saved profile '${name}' from ${configPath}`);
     return;
   }
 

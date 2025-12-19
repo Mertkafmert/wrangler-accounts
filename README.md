@@ -34,6 +34,7 @@ node bin/wrangler-accounts.js <command>
 ```bash
 wrangler-accounts list
 wrangler-accounts status
+wrangler-accounts login work
 wrangler-accounts save work
 wrangler-accounts use personal
 wrangler-accounts remove old
